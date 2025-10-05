@@ -4,13 +4,13 @@
  * report formats, snippet interface, and world parameters.
  */
 module.exports = {
-  
+
   default: {
     /**
      * Number of workers to run in parallel.
      * @type {number}
      */
-    parallel: 1,
+    parallel: 2,
 
     /**
      * Glob patterns for feature files.
@@ -49,5 +49,5 @@ module.exports = {
       ...process.env,
     },
   },
-  
+
 };
